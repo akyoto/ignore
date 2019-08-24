@@ -1,9 +1,10 @@
 package ignore_test
 
 import (
-	"github.com/akyoto/ignore"
-	"github.com/stretchr/testify/assert"
 	"testing"
+
+	"github.com/akyoto/assert"
+	"github.com/akyoto/ignore"
 )
 
 func TestIgnoreParentheses(t *testing.T) {
